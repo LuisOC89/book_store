@@ -46,5 +46,5 @@ COPY . .
 RUN chmod +x config/wsgi.py
 
 # This is the command that will be run when the container starts.
-CMD ["docker/run_web.sh"]
+CMD ["docker/run_server.sh"]
 EXPOSE 8000
