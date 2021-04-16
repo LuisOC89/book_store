@@ -15,13 +15,8 @@ RUN apk --no-cache add \
 # Add build dependencies.
 RUN apk --no-cache add --virtual .build-deps \
     build-base \
-    # Install Rust Required for cryptography build
-    rust=1.47.0-r2 \
-    cargo \
     git \
     linux-headers \
-    openssh-client \
-    openssl-dev \
     postgresql-dev \
     python3-dev
 
