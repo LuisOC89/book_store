@@ -8,8 +8,6 @@ RUN echo http://dl-cdn.alpinelinux.org/alpine/edge/community >> /etc/apk/reposit
 # Add run-time dependencies.
 RUN apk --no-cache add \
     bash \
-    jpeg-dev cairo-dev pango-dev gdk-pixbuf-dev \
-    fontconfig ttf-dejavu ttf-liberation \
     libffi \
     libpq \
     zlib
