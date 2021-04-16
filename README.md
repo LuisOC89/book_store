@@ -2,8 +2,8 @@
 App that simulates a Books' Store
 
 ## Desired implementations:
-- [ ] Add Docker.
-- [ ] Add PSQL.
+- [x] Add Docker.
+- [x] Add PSQL.
 - [ ] Add Django admin.
 - [ ] Make management script to populate data.
 - [ ] Make generic django list view.
