@@ -14,3 +14,10 @@ App that simulates a Books' Store
     - genre
     - price
 - [ ] Make ratings and comments app.
+
+## Running locally
+1. You will need an API KEY from google if you want to populate the DB  
+using the **Google Books Api** Click [here](https://developers.google.com/books/docs/overview) for instructions. 
+Otherwise, you will get faked data in the DB.  
+
+
